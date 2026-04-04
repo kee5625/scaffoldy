@@ -1,3 +1,7 @@
 #!/usr/bin/env node
 
-console.log("Hello world!");
+const { argv } = require("node:process");
+
+const name = argv[2] || 'world';
+
+console.log(`Hello ${name}!`);
