@@ -12,6 +12,7 @@
   ],
   "preferGlobal": true,
   "keywords": ["create", "mern", "scaffold", "cli"],
+  "author": "Karthik Rachamolla",
   "license": "ISC",
   "engines": {
     "node": ">=18"
