@@ -1,9 +1,19 @@
 {
   "name": "create-mern-app",
   "version": "0.0.1",
-  "bin": "index.js",
   "description": "Create MERN stack applications",
-  "main": "index.js",
   "type": "module",
-  "preferGlobal": true
+  "bin": {
+    "create-mern-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "templates"
+  ],
+  "preferGlobal": true,
+  "keywords": ["create", "mern", "scaffold", "cli"],
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
 }
