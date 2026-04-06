@@ -1,5 +1,9 @@
 {
   "name": "create-mern-app",
   "version": "0.0.1",
-  "bin": "index.js"
+  "bin": "index.js",
+  "description": "Create MERN stack applications",
+  "main": "index.js",
+  "type": "module",
+  "preferGlobal": true
 }
